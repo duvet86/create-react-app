@@ -2,4 +2,5 @@
 # checkin and prevent conversion to CRLF when they are checked out
 # (this is required in order to prevent newline related issues like,
 # for example, after the build script is run)
-* text=auto
+*.js    text eol=lf
+*.snap  text eol=lf
